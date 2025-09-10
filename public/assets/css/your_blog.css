@@ -1,0 +1,19 @@
+.blog-card {
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	margin: 20px auto;
+	padding: 20px;
+	max-width: 800px;
+	box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+.blog-card h3 {
+	margin-top: 0;
+}
+.blog-content img {
+	max-width: 100%;
+	height: auto;
+}
+.blog-content {
+	margin-top: 10px;
+	line-height: 1.6;
+}

@@ -1,0 +1,44 @@
+#buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensure full height */
+	font-size: 16px;
+	width:10px;
+}
+
+#buttonContainer .col-4 {
+    padding: 0 2px; /* Small gap between buttons */
+}
+
+.action-button {
+    display: flex;
+    width: 10px;
+    height: 100%; /* Match container height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+	/* height: 105px; */
+}
+
+.action-button i {
+    margin-right: 5px; /* Space between icon and text */
+}
+
+.anggota-wrapper {
+	gap: 20px;
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .anggota-card {
+	margin-bottom: 15px;
+  }
+  
+  @media (max-width: 768px) {
+	.anggota-card {
+	  margin-bottom: 10px;
+	}
+  }
+  

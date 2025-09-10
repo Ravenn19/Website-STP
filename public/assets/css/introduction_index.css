@@ -1,0 +1,125 @@
+/* Section background and spacing */
+.homepage-03.about-introduction {
+    background-color: #fffaf5;
+    padding: 100px 0;
+}
+
+/* Heading and paragraph styling */
+.sub-section-heading h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.sub-section-heading p {
+    color: #555;
+    font-size: 1.1rem;
+}
+
+/* Work Process items styling */
+.work-process-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.work-process-item i {
+    font-size: 2rem;
+    color: #333;
+}
+
+.work-process-item h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #333;
+}
+
+/* Hover effect for work-process items */
+.work-process-item:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* Image styling */
+.image-container {
+    display: flex;
+    flex-direction: column;  /* Membuat gambar ditampilkan secara vertikal */
+    align-items: center;
+    gap: 20px; /* Memberikan jarak antar gambar */
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 500px; /* Ukuran gambar yang responsif */
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Hover effect on images */
+.image-container:hover img {
+    transform: scale(1.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .homepage-03.about-introduction {
+        padding: 50px 0;
+    }
+
+    .sub-section-heading h2 {
+        font-size: 2rem;
+    }
+
+    .sub-section-heading p {
+        font-size: 1rem;
+    }
+
+    .work-process-item h5 {
+        font-size: 1rem;
+    }
+
+    .image-container img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.image-gallery {
+	display: flex;
+	gap: 20px;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+  }
+  
+  .gallery-item {
+	flex: 1 1 45%;
+	max-width: 100%;
+	overflow: hidden;
+	border-radius: 16px;
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+	transition: transform 0.4s ease, box-shadow 0.4s ease;
+	position: relative;
+  }
+  
+  .gallery-item img {
+	width: 100%;
+	height: auto;
+	display: block;
+	transition: transform 0.4s ease;
+	border-radius: 16px;
+  }
+  
+  /* Hover efek: scale & shadow */
+  .gallery-item:hover {
+	transform: translateY(-10px);
+	box-shadow: 0 20px 35px rgba(0, 0, 0, 0.15);
+  }
+  
+  .gallery-item:hover img {
+	transform: scale(1.05);
+  }
+  

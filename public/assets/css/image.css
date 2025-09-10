@@ -1,0 +1,64 @@
+/* Mengatur container ul agar menggunakan flexbox */
+.thumbnails {
+    display: flex;
+	width: 900px;
+    flex-wrap: wrap; 
+	justify-content: justify;
+	align-items: center;
+    gap: 10px; /* Jarak antar elemen */
+    list-style: none; /* Menghilangkan bullet */
+    padding: 10px; 
+    margin: 10px; 
+}
+
+/* Mengatur setiap elemen li agar seragam */
+.thumbnails .span3 {
+    flex: 1 1 calc(25% - 20px); /* Ukuran tiap elemen adalah 25% dari lebar container */
+    max-width: 25%;
+    box-sizing: border-box;
+}
+
+/* Gambar dalam thumbnail */
+.thumbnail img {
+    width: 100%; /* Gambar memenuhi elemen thumbnail */
+    height: 160px; /* Memastikan proporsi gambar tetap */
+    border-radius: 5px; /* Opsional, membuat sudut gambar sedikit melengkung */
+	object-fit: cover;
+}
+
+/* Thumbnail caption */
+.caption {
+    text-align: center; /* Menyelaraskan teks di tengah */
+    padding: 10px; /* Ruang dalam untuk teks */
+    background-color: #f9f9f9; 
+    border-radius: 5px; /* Melengkungkan sudut caption */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/* Button styling */
+.caption .btn {
+    margin: 5px; 
+}
+
+.coin{
+	font-style: bold;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: black;
+	font-size: 23px;
+}
+
+/* Media query untuk tablet (minimal lebar 768px) */
+@media (min-width: 768px) {
+    .thumbnails .span3 {
+        flex: 1 1 calc(50% - 20px); /* Setiap item menggunakan 50% lebar container pada tablet */
+        max-width: 50%;
+    }
+}
+
+/* Media query untuk layar besar (minimal lebar 1024px) */
+@media (min-width: 1024px) {
+    .thumbnails .span3 {
+        flex: 1 1 calc(25% - 20px); /* Setiap item menggunakan 25% lebar container pada desktop */
+        max-width: 25%;
+    }
+}

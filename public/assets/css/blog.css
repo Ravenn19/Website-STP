@@ -1,0 +1,121 @@
+/* Logo Font Custom */
+/* Logo Font Custom */
+.logo-font {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem; /* Membuat logo lebih besar */
+    color: #333;
+}
+
+/* Mengatur ukuran dan responsivitas tombol */
+button {
+    font-size: 1.2rem;
+    padding: 12px 20px;
+}
+
+/* Menyesuaikan ukuran font di dalam editor */
+#content {
+    font-size: 16px; /* Ukuran font dalam editor */
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    min-height: 250px;
+}
+
+/* Memperbesar ukuran input teks judul */
+input[type="text"] {
+    font-size: 1.5rem;
+}
+
+/* Mengatur toolbar */
+.toolbar {
+    margin-bottom: 20px;
+}
+
+/* Mengatur ukuran button yang lebih besar */
+.toolbar button {
+    font-size: 1.4rem;
+    padding: 10px 15px;
+}
+
+/* Membuat form lebih bersih dan menarik */
+.editor-container {
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+/* Mengatur warna tombol simpan */
+button[type="submit"] {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+/* Memperbesar ukuran input warna */
+input[type="color"] {
+    width: 60px; /* Memperbesar lebar input warna */
+}
+
+/* Placeholder editor */
+#content:empty:before {
+    content: attr(placeholder);
+    color: #aaa;
+    font-style: italic;
+}
+
+
+.editor-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    resize: vertical;
+    border-radius: 5px;
+}
+
+.toolbar button, .toolbar select, .toolbar input {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.toolbar {
+    display: flex;
+    align-items: center;
+}
+
+#imagePreviewContainer {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#imagePreview {
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 5px;
+}
+
+#submitBtn {
+    font-size: 1.1rem;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#submitBtn:hover {
+    background-color: #218838;
+}

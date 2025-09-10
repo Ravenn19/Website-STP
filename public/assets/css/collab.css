@@ -1,0 +1,79 @@
+.collab-section {
+    padding: 100px 40px;
+    background-color: #fffaf5;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.05);
+    transition: all 0.4s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+
+.collab-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #333;
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.collab-subtitle {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 50px;
+    font-style: italic;
+}
+
+.collab-logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.collab-logo {
+    max-width: 160px;
+    height: auto;
+    opacity: 1;
+    transition: all 0.4s ease;
+    animation: floatLogo 5s ease-in-out infinite;
+    cursor: pointer;
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.1));
+}
+
+.collab-logo:hover {
+    transform: scale(1.12);
+    filter: drop-shadow(0 0 15px rgba(255, 200, 0, 0.5));
+}
+
+.collab-logo.clicked {
+    animation: logoBounce 0.5s ease-in-out;
+}
+
+@keyframes logoBounce {
+    0%   { transform: scale(1); }
+    30%  { transform: scale(1.2) translateY(-10px); }
+    60%  { transform: scale(1.05) translateY(5px); }
+    100% { transform: scale(1) translateY(0); }
+}
+
+@media (max-width: 768px) {
+    .collab-section {
+        padding: 70px 20px;
+    }
+
+    .collab-logo {
+        max-width: 120px;
+    }
+
+    .collab-title {
+        font-size: 28px;
+    }
+
+    .collab-subtitle {
+        font-size: 16px;
+    }
+}

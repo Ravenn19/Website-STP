@@ -1,0 +1,74 @@
+[
+  {
+    "No": "1",
+    "Tahun": "2016",
+    "Hak_Cipta": "20",
+    "Paten": "0",
+    "Merek": "1",
+    "Buku_ISBN": "0",
+    "Buku_e-ISBN": "0" 
+  },
+  {
+    "No": "2",
+    "Tahun": "2017",
+    "Hak_Cipta": "32",
+    "Paten": "1",
+    "Merek": "0",
+    "Buku_ISBN": "1",
+    "Buku_e-ISBN": "0"
+  },
+  {
+    "No": "3",
+    "Tahun": "2018",
+    "Hak_Cipta": "22",
+    "Paten": "4",
+    "Merek": "2",
+    "Buku_ISBN": "3",
+    "Buku_e-ISBN": "0"
+  },
+  {
+    "No": "4",
+    "Tahun": "2019",
+    "Hak_Cipta": "30",
+    "Paten": "8",
+    "Merek": "0",
+    "Buku_ISBN": "8",
+    "Buku_e-ISBN": "0"
+  },
+  {
+    "No": "5",
+    "Tahun": "2020",
+    "Hak_Cipta": "41",
+    "Paten": "0",
+    "Merek": "1",
+    "Buku_ISBN": "2",
+    "Buku_e-ISBN": "0"
+  },
+  {
+    "No": "6",
+    "Tahun": "2021",
+    "Hak_Cipta": "45",
+    "Paten": "3",
+    "Merek": "3",
+    "Buku_ISBN": "15",
+    "Buku_e-ISBN": "8"
+  },
+  {
+    "No": "7",
+    "Tahun": "2022",
+    "Hak_Cipta": "17",
+    "Paten": "4",
+    "Merek": "0",
+    "Buku_ISBN": "8",
+    "Buku_e-ISBN": "8"
+  },
+  {
+    "No": "8",
+    "Tahun": "2023",
+    "Hak_Cipta": "8",
+    "Paten": "0",
+    "Merek": "0",
+    "Buku_ISBN": "1",
+    "Buku_e-ISBN": "0"
+  }
+]
